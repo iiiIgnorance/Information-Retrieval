@@ -15,8 +15,8 @@ $ python3 main.py <google_api_key> <google_engine_id> <precision> <query>
 
 Credential | Key
 --- | ---
-Google Api Key | AIzaSyCn8r6T7HFDtIroyakH0xp5T8UKOd9T2iU
-Google Engine Id | 2d27291d6a2f66dc1
+Google Api Key | 
+Google Engine Id | 
 
 ## Project Design
 The system takes a query, retrieves search results from Google, collects user feedback, augments the query using the Rocchio algorithm, sorts the augmented query based on bigram score, and retrieves search results again using the new query.
